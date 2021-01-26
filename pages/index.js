@@ -5,6 +5,7 @@ import GitHubCorner from '../src/components/GitHubCorner';
 import QuizBackground from '../src/components/QuizBackground';
 import QuizLogo from '../src/components/QuizLogo';
 import Widget from '../src/components/Widget';
+import Head from '../src/components/Head';
 
 
 export const QuizContainer = styled.div `
@@ -21,6 +22,7 @@ export const QuizContainer = styled.div `
 export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
+      <Head></Head>
       <QuizContainer>
         <QuizLogo />
         <Widget>
@@ -40,7 +42,7 @@ export default function Home() {
           </Widget>
         <Footer />
       </QuizContainer>
-      <GitHubCorner />
+      <GitHubCorner projectUrl="https://github.com/deboranrosa/"/>
    </QuizBackground>
           
         
