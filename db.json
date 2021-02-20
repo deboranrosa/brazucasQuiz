@@ -1,40 +1,142 @@
-{   "bg": "https://cdn.pixabay.com/photo/2014/10/14/20/24/ball-488718_960_720.jpg",
-    "title": "Futebol Brasileiro",
+{   "bg": "https://image.freepik.com/fotos-gratis/homem-de-futebol-jovem-goleiro-isolado-da-equipe-de-futebol-da-academia_1150-14668.jpg",
+    "title": "#FutWorld",
     "description": "Teste os seus conhecimentos sobre o universo do futebol e descubra se você é craque ou reserva",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
-        "answer": 2,
+        "image": "https://media2.giphy.com/media/l4EoRRqXxn1OLiP1m/giphy.gif",
+        "typeQuestion": "COPA DO MUNDO FIFA",
+        "title": "Quantas Copas do Mundo o Brasil já foi vencedor?",
+        "answer": 3,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "4",
+          "6",
+          "3",
+          "5"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
+        "image": "https://media2.giphy.com/media/XxvFtozKHwjR0etBDF/giphy.gif",
+        "typeQuestion": "UEFA CHAMPIONS LEAGUE",
+        "title": "Qual time foi campeão da Liga dos Campeões da UEFA de 2019/20?",
+        "answer": 2,
+        "alternatives": [
+           "Real Madrid",
+           "Liverpool",
+           "Bayern München",
+           "Paris Saint-Germain"
+        ]
+      },
+      {
+        "image": "https://i.pinimg.com/originals/64/9d/b0/649db0d08d0162cefe90ceac3f3b74f4.gif",
+        "typeQuestion": "FUTEBOL E HISTÓRIA",
+        "title": "Em que ano foi implantada a numeração dos uniformes no Brasil?",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "1947",
+           "1933",
+           "1950",
+           "1966"
+        ]
+      },
+      {
+        "image": "https://24.media.tumblr.com/19f3e589450a95b18b7a76ca49cae330/tumblr_mzd2t1v3D81qbiysso2_r1_500.gif",
+        "typeQuestion": "MELHOR DO MUNDO",
+        "title": "Qual jogador levou o Bola de Ouro em 1998?",
+        "answer": 2,
+        "alternatives": [
+           "Ronaldo",
+           "Michael Owen",
+           "Zinedine Zidane",
+           "Ronaldinho"
+        ]
+      },
+      {
+        "image": "https://media0.giphy.com/media/2mCt0FJZ4frsxCRn1D/giphy.gif",
+        "typeQuestion": "FUTEBOL FEMININO",
+        "title": "Quantas vezes a jogadora Marta foi escolhida como a melhor do mundo?",
+        "answer": 1,
+        "alternatives": [
+           "3",
+           "6",
+           "4",
+           "2"
+        ]
+      },
+      {
+        "image": "http://i.imgur.com/CvOqnzp.gif",
+        "typeQuestion": "BRASILEIRÃO",
+        "title": "Quais foram os times rebaixados no Brasileirão de 2004?",
+        "answer": 2,
+        "alternatives": [
+           "Atlético Paranaense, Ceará, América Mineiro, Avai",
+           "Sport, Palmeiras, Atlético Goianiense, Figueirense",
+           "Criciúma, Guarani, Vitória, Grêmio",
+           "Internacional, Figueirense, Santa Cruz, América Mineiro"
+        ]
+      },
+      {
+        "image": "https://media3.giphy.com/media/3oKIPuZUcUO0vzwPEQ/giphy.gif",
+        "typeQuestion": "FUTEBOL E HISTÓRIA",
+        "title": "Qual o time mais antigo do Brasil?",
+        "answer": 0,
+        "alternatives": [
+           "Sport Club Rio Grande",
+           "Ponte Preta",
+           "Fluminense",
+           "Vitória"
+        ]
+      },
+      {
+        "image": "https://media2.giphy.com/media/26Ff9pPbYXr78Xviw/giphy.gif",
+        "typeQuestion": "CAMPEONATOS",
+        "title": "Qual time foi campeão da Sul-Americana em 2008?",
+        "answer": 3,
+        "alternatives": [
+           "São Paulo",
+           "Boca Juniors",
+           "River Plate",
+           "Internacional"
+        ]
+      },
+      {
+        "image": "https://i.gifer.com/Nn1y.gif",
+        "typeQuestion": "FUTEBOL FEMININO",
+        "title": "Qual time foi campeão do Brasileirão Feminino em 2020?",
+        "answer": 0,
+        "alternatives": [
+           "Corinthians",
+           "Santos",
+           "Internacional",
+           "Ferroviária"
+        ]
+      },
+      {
+        "image": "http://ift.tt/2il5kRT",
+        "typeQuestion": "BRASILEIRÃO",
+        "title": "Quais times ocuparam as trẽs primeiras posições no Brasileirão de 2006?",
+        "answer": 2,
+        "alternatives": [
+           "São Paulo, Santos, Flamengo",
+           "São Paulo, Grêmio, Cruzeiro",
+           "São Paulo, Internacional, Grêmio",
+           "Flamengo, Internacional, São Paulo"
         ]
       }
     ],
     "external": [
-      ""
+      "https://aluraquiz-base.alura-challenges.vercel.app/",
+      "https://aluraquiz-css.omariosouto.vercel.app/",
+      "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
     ],
     "theme": {
       "colors": {
-        "primary": "#888C03",
-        "secondary": "#D2CECB",
-        "mainBg": "#D2CECB",
+        "primary": "#A4A698",
+        "secondary": "#162226",
+        "mainBg": "#D8D9D0",
         "contrastText": "#000000",
+        "disable": "rgba(22, 34, 38, 0.5)",
         "wrong": "#FF5722",
+        "github": "#53A65F",
         "success": "#4CAF50"
       },
       "borderRadius": "4px"

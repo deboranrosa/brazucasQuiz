@@ -1,4 +1,5 @@
-import styled from 'styled-components'
+/* eslint-disable react/react-in-jsx-scope */
+import styled from 'styled-components';
 
 // src/components/Footer/index.js
 const FooterWrapper = styled.footer`
@@ -11,7 +12,7 @@ const FooterWrapper = styled.footer`
     width: 58px;
     margin-right: 23px;
   }
-  a {
+  a, p {
     color: white;
     text-decoration: none;
     transition: .3s;
